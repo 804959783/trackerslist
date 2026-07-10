@@ -4,7 +4,7 @@
 // Bili Live Prophet = type=cron,cronexp=*/2 * * * *,script-path=./bilibili_prophet_loon.js,timeout=30
 
 const REQUEST_URL =
-  "https://api.live.bilibili.com/xlive/app-ucenter/v1/elden/get_by_user?access_key=9e7a75cbea958854584374bc4f7eb571CjCA69UNlk1PdYeN4KArXGJuOt9umDIs2wxQ3fE058TgumaqnwuM-7-IoShcUTj3MU0SVnBoUDJ2N1MzWjhyQ3hjNEhVdGdPWld2cDlYMERJQUkydXVXMjZ3MHVYTDNNY0c2MFhkd21UQno2bEljVHc5X1NiZHhMdVpna2FkX3kwVWRXb3huUW13IIEC&actionKey=appkey&anchor_id=8739477&appkey=27eb53fc9058f8c3&build=86400100&c_locale=zh-Hans_CN&device=pad&disable_rcmd=0&mobi_app=iphone&platform=ios&s_locale=zh-Hans_CN&sign=9e8130ec22dd1829004ddb577c31abc4&statistics=%7B%22appId%22%3A1%2C%22version%22%3A%228.64.0%22%2C%22abtest%22%3A%22%22%2C%22platform%22%3A2%7D&teenagers_age=16&ts=1783049625&uid=6710348&with_history=0";
+  "https://api.live.bilibili.com/xlive/app-ucenter/v1/elden/get_by_user?access_key=04a91f42c9627ea1aaac64fa97741771CjArbmjIi7_49fcqMZw-OK5T6L--wwtOYX2M8XXVMvCF_cMvj0i_B9DiWcBkpv1ryTESVjRvajVkaXowWTZWYTBIZUVpMlhnN0dKWG41ak1wSXdmX0U1N0szZUlicjkwN1dEdW9wb3d5V2R4cEZtWnRXd2NYOGhtWG81bjhtMm1KSnpaLXFtMldnIIEC&actionKey=appkey&anchor_id=8739477&appkey=27eb53fc9058f8c3&build=86400100&c_locale=zh-Hans_CN&device=pad&disable_rcmd=0&mobi_app=iphone&platform=ios&s_locale=zh-Hans_CN&sign=9e8130ec22dd1829004ddb577c31abc4&statistics=%7B%22appId%22%3A1%2C%22version%22%3A%228.64.0%22%2C%22abtest%22%3A%22%22%2C%22platform%22%3A2%7D&teenagers_age=16&ts=1783049625&uid=6710348&with_history=0";
 
 const REQUEST_HEADERS = {
   "APP-KEY": "iphone",
